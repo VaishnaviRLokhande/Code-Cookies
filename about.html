@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: antiquewhite;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      background-color: antiquewhite;
+    }
+
+    .image {
+      flex: 3;
+      background-image: url(about-img.jpg); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .cards {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .card {
+      
+      height: 300px;
+      background-color: #f98383;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      height: 300px;
+      width: 300px;
+    }
+
+    .card h2 {
+        font-family:trajan-pro-3,serif;;
+      font-size: 1em;
+      font-weight: 400;
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+      /* footer */
+  footer{
+    margin-top: 10px;
+}
+
+.foot-panel1{
+    background-color: #424b66;
+    color: white;
+    height: 50px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #2c344b;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-footer{
+    background-image: url(logo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 12px;
+}
+
+ul{
+    margin-top: 13px;
+}
+
+/* .foot-panel3{
+    background-color: #2c344b;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.foot-panel4{
+    background-color: #232c45;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    color: #dddddd;
+}
+
+.social-media{
+    padding-top: 6px;
+    font-size: 0.8rem;
+    /* color: black; */
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image"></div>
+    <div class="cards">
+      <div class="card">
+        <h2>HISTORY</h2>
+        <p>
+            <ul>
+                <li>Since 1920</li>
+                <li>Founder - James Patil</li>
+                <li>After completing his degree in Hotel Management, he has been working with esteemed hotels like Clarks Group of Hotels, Royal Orchid Group, MRG Group, Panoramic Group, ITC Fortune and The Byke Hospitality</li>
+                <li> He has been instrumental in adding an array of new hotels to the ever expanding CodeCookies Group.</li>
+                
+            </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h2>MILESTONES</h2>
+        <p>
+            <ul>
+              <li>1920 -Foundation</li>
+              <li>2012 - Crosses the 10 hotels mark under management </li>
+              <li>2017 - Enters the Thailand market with its first consultancy to a local hotelier</li>
+              <li>2018 - First Leased hotel signed in Upper Thane</li>
+              <li>2020 - The group opens 8 new properties</li>
+              <li>2023 - Growing with the trend</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+
+    <div class="foot-panel2">
+
+        <!-- <div class="foot-panel3"> -->
+            <div class="logo-footer"></div>
+        <!-- </div> -->
+
+        <ul>
+            <p>Get to Know us</p>
+            <a href="#">Blogs</a>
+            <a href="#">History</a>
+            <a href="#">About Code Cookies</a>
+            
+
+        </ul>
+        <ul>
+            <p>Make Money with us</p>
+            <a href="#">Add a restaurant to Code Cookies</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Self Publish with Us</a>
+       
+
+        </ul>
+        <ul>
+            <p>We Deliver To</p>
+            <a href="#">Mumbai</a>
+            <a href="#">Sangli</a>
+            <a href="#">Pune</a>
+            <a href="#">Ratnagiri</a>
+        </ul>
+        <ul>
+            <p>Most loved food</p>
+            <a href="#">Pulihora</a>
+            <a href="#">Shahi Paneer</a>
+            <a href="#">Daal Makhani</a>
+            
+        </ul>
+    </div>
+
+    <!-- logo -->
+
+    <!-- <div class="foot-panel3">
+        <div class="logo-footer"></div>
+    </div> -->
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a href="#">Collections of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Your Ads Privacy Choices</a>
+        </div>
+        <div class="social-media">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+ </footer>
+</body>
+</html>

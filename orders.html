@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Order Your Favourite Food Now!</h3>
+
+        <div class="login">
+            <div class="login_para">
+                <p class="check">&#10003;</p>
+                <span>Change</span>
+            </div>
+            <button class="user-icon">&#128100;</button>
+            <span>Pradeep Shah</span>
+        </div>
+
+        <div class="divs">
+            <div class="shipping">
+                <p>Shipping Address</p>
+
+                <div class="form">
+                    <label for="f_name" aria-required="true">First Name *</label>
+                    <input type="text" class="f_name" id="f_name">
+                    <br>
+
+                    <label for="l_name" aria-required="true">Last Name *</label>
+                    <input type="text" class="l_name" id="l_name">
+                    <br>
+
+                    <label for="address" aria-required="true">Address *</label>
+                    <input type="text" class="address" id="address">
+                    <br>
+
+                    <label for="city" aria-required="true">City *</label>
+                    <input type="text" class="city" id="city">
+                    <br>
+
+                    <label for="country" aria-required="true">Country *</label>
+                    <input type="text" class="country" id="country">
+                    <br>
+
+                    <label for="pin_code" aria-required="true">Contact No *</label>
+                    <input type="number" class="pin_code" id="pin_code">
+                    <br>
+
+                    <p>Address Type</p>
+                    <div class="radio">
+                        <input type="radio" name="addressType" id="home" checked>
+                        <label for="home">Home (All Day Delivery)</label>
+
+                        <input type="radio" name="addressType" id="office">
+                        <label for="office">Office (Delivery Between 10 AM - 5 PM)</label>
+                    </div>
+
+                    <div class="btns">
+                        <a href="paymentdetails.html">
+                            <button class="submit">Save and Deliver Here</button>
+                        </a>
+                        <button class="cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

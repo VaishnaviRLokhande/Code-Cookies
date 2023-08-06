@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+    .centered-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .logo {
+        max-width: 150px; /* Set the maximum width for the logo */
+        margin-bottom: 20px; /* Add some space below the logo */
+        border-radius: 50%;
+    }
+
+    .gif-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: antiquewhite;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .gif {
+        height: auto;
+        max-height: 250px;
+        width: 100%;
+    }
+
+    .gif-left, .gif-right {
+        flex-basis: 45%;
+    }
+
+    .text-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 18px;
+        white-space: nowrap;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        .gif-left, .gif-right {
+            flex-basis: 100%;
+        }
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIFs with Space and Text</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="centered-content">
+        <img src="logo4.png" alt="Logo" class="logo">
+        <div class="gif-container">
+            <img src="delivery-boy.gif" alt="First GIF" class="gif gif-left">
+            <div class="text-line">
+                <h3>"A delicious journey from our kitchen to your taste buds :)"</h3>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <img src="successful-food-delivery.gif" alt="Second GIF" class="gif gif-right">
+        </div>
+    </div>
+</body>
+</html>

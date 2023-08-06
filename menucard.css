@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.start-img{
+    background-image: url("header3.jpg");
+    /* opacity: 0.7; */
+}
+.navbar{
+    height: 140px;
+    background-color: transparent;
+    color: #2c344b;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    /* background-image: url("taj.jpeg"); */
+}
+.nav-logo{
+    height: 100px;
+    width: 100px;
+    font-size: 1.2rem;
+}
+.logo{
+    padding: 2px;
+    background-image: url("logo4.png");
+    background-size: cover;
+    /* background-color: lightblue; */
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    cursor: pointer;
+}
+
+/* box2 */
+.add-first{
+    color: #2c344b;
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.location{
+    margin-left: 10px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* box3 */
+.nav-search{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(239, 235, 229, 0.785);
+    width: 620px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(4, 54, 87);
+    background-color: #2c344b;
+}
+
+.search-select{
+    background-color: #2c344b;
+    color: white;
+    width: 50px;
+    font-size: 1rem;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    background-color: #fbd4dd;   
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white ;
+    background-color: #2c344b;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* box4 */
+span{
+    font-size: 1rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* box6 */
+.nav-cart i{
+    font-size: 20px;
+}
+
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-cart:hover {
+    background-color: #0056b3;
+}
+
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    background-color: #2c344b;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    margin-right: 70%;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    /* background-image: url("taj.jpeg"); */
+    opacity: 0.4;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: flex-end; */
+}
+.hero-msg{
+    background-color: rgba(254, 194, 134, 0.3);
+    background-color: white;
+    color: #2c344b;
+    color: rgb(4, 1, 9);
+    display: block;
+    font-weight: bolder;
+    padding: 0.2px;
+    height: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 0.7rem;
+    width: 50%;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    display: block;
+    /* margin-top: 20%; */
+}
+
+.hero-msg p{
+    color: #007185;
+}
+.overlay-text {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #2c344b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+  }
+  .transparent-image {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+
+  /* footer */
+  footer{
+    margin-top: 2px;
+}
+
+.foot-panel1{
+    background-color: #424b66;
+    color: white;
+    height: 50px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #2c344b;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-footer{
+    background-image: url(logo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 12px;
+}
+
+ul{
+    margin-top: 13px;
+}
+
+/* .foot-panel3{
+    background-color: #2c344b;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.foot-panel4{
+    background-color: #232c45;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    color: #dddddd;
+}
+
+.social-media{
+    padding-top: 6px;
+    font-size: 0.8rem;
+    /* color: black; */
+}
+
+.container{
+    
+    /* Set the background image using the 'background-image' property */
+    
+  
+    /* Specify how the background image should be displayed */
+  
+    background-position: center center; /* You can change this to position the image differently */
+  
+    /* Set a fallback background color in case the image is unavailable or takes time to load */
+    background-color: #f3eff2;
+    color:2c344b;
+    text-align: center;
+    
+
+  
+ }
+  .cn2{
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+  }
+
+  .upper-row {
+    background-color: #c86874;
+    color: #2c344b;
+    text-align: center;
+    height: 79px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.food-list {
+    padding: 20px;
+    list-style: none;
+  }
+  .food-list li {
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    color: #2c344b;
+    justify-content: space-between;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  /* .food-list li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+  } */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.food-img {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .food-img img {
+    border-radius: 12px 12px 0 0;
+    transition: .3s;
+  }
+  /* .food-img h4 {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    background-color: #ff7720;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: .3s;
+  } */
+  .card img{
+    height: 100%;
+    width: 100%;
+    margin-top: 7px;
+   /* // filter: grayscale(100%); */
+    box-shadow: 0 0 20px #333;
+    object-fit: cover;
+
+}
+.card:hover {
+    transform: scale(1.03);
+    /* transition: 2s; */
+    filter: drop-shadow(0 0 10px #f5e9f0);
+    transition: 0.3s;
+    /* box-shadow: #333; */
+}
+/* .card:hover img {
+     filter: grayscale(0%);
+} */
+
+.card img {
+   
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #2c344b;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: rgb(52, 27, 69);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c86874;
+
+   
+}
